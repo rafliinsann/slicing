@@ -34,6 +34,7 @@
             padding-bottom: 11px;
             padding-left: 25px;
             padding-right: 26px;
+            border: none;
         }
         #m-img{
             margin-top: 44px;
@@ -49,15 +50,70 @@
           line-height: 17.07px;
         }
         #m-t{
-          margin-top: 81  px;
+          margin-top: 81px;
+        }
+        #m-pg2{
+          margin-top: 126.03px;
+        }
+        #judul-page2{
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 43.88px;
+        }
+        #co-judul-page2{
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 29.26px;
+        }
+        #p2{
+          margin-top: 21px;
+          font-weight: 300;
+          line-height: 19.5px; 
+          font-size: 16px;  
+        }
+        #m-pg3{
+          margin-top: 126px;
+        }
+        #judul-pg3{
+          font-weight: 700;
+          line-height: 42.67px;
+        }
+        #button2{
+          background-color: #FFC13B;
+          border-radius: 5px;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 17.07px;
+          padding-top: 10px;
+          padding-bottom: 11px;
+          padding-left: 25px;
+          padding-right: 26px;
+          border: none;
+        }
+        #button3{
+            background-color: #FF4B04;
+            color: white;
+            height: 41px;
+            width: 96px;
+            border-radius: 21px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17.07px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 29px;
+            padding-right: 29px;
+            border: none;
+            position: relative;
+            top: -40px;
+            left: 254px;
         }
     </style>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
@@ -65,10 +121,13 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar bg-body-white ms-5">
+    <nav class="navbar bg-body-white navbar-expand-lg">
         <div class="container-fluid">
-          <a id="m-nav" class="navbar-brand" href="#"><img src="assest/img/logo 1.png" alt=""></a>
-            <ul class="nav me-5">
+          <a id="m-nav" class="navbar-brand collapse navbar-collapse" id="navbarSupportedContent" href="#"><img src="assest/img/logo 1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <ul class="nav me-5 ">
                 <li class="nav-item">
                   <a class="nav-link text-dark" aria-current="page" href="#">Tentang</a>
                 </li>
@@ -131,7 +190,7 @@
             <img src="assest/img/fleksibel.png" alt="Logo" width="66" height="55" class="mt-4">
               <div class="d-inline-flex flex-column">
                 <h5>Fleksibel</h5>
-                <p>Akses di banyak perangkat</p>
+                <p>Akses di banyak <br> perangkat</p>
               </div>
           </div>
         </div>
@@ -140,7 +199,213 @@
     <!-- Page 1 bottom End -->
 </div>
 
+    <!-- Page 2 Start  -->
+      <div class="container" id="m-pg2">
+        <div class="row">
+          <div class="col">
+            <img src="assest/img/page2.png" alt="" style="margin-right: 100px; margin-left: -100px;">
+          </div>
+          <div class="col">
+            <h2 id="judul-page2">Latar Belakang</h2>
+            <h3 id="co-judul-page2">Terciptanya S.P.O</h3>
+            <div class="progress" role="progressbar" aria-label="Example 1px high" style="height: 2px; background-color: white;">
+              <div class="progress-bar" style="width: 25%; background-color: #FF4B04;">
+              </div>
+            </div>
+            <p id="p2">Dimasa Pandemi seperti sekarang, para siswa dan guru tidak <br>
+            bisa bertatap muka secara langsung, sehingga proses belajar <br>
+            mengajar menjadi sulit untuk dilakukan, oleh karena itu kita <br>
+            bisa memanfaatkan teknologi untuk mempermudah dan <br>
+            meningkatkan kualitas pembelajaran di masa pandemi ini</p>
+            <div class="container" style="margin-left: -10px;">
+              <div class="row">
+                <div class="col">
+                  <img src="assest/img/stop.png" alt="" style="margin-top: 30px;" width="66" height="55">
+                  <div class="d-inline-flex flex-column" style="margin-left: 15px;">
+                    <h5 class="font-weight: 400; font-size: 16px; line-height: 19.5px;  ">Harapan</h5>
+                    <p style="font-weight: 100; font-size: 13px; line-height: 15.85px;">Bisa berbuat sesuatu<br>yang bermanfaat</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <img src="assest/img/visi.png" alt="" style="margin-top: 30px;" width="66" height="55">
+                  <div class="d-inline-flex flex-column" style="margin-left: 15px;">
+                    <h5 class="font-weight: 400; font-size: 16px; line-height: 19.5px;  ">Visi</h5>
+                    <p style="font-weight: 100; font-size: 13px; line-height: 15.85px;">Membuat pembelajaran <br> menjadi mudah</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Page 2 End  -->
+
+    <!-- Page 3 Start -->
+    <div class="container text-center" id="m-pg3">
+      <div class="row">
+        <div class="col">
+          <h2 id="judul-pg3">Tujuan S.P.O</h2>
+          <h4 style="font-weight: 300; margin-top: 4px;">S.P.O memiliki 3 Tujuan <br> utama diantaranya yaitu</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 45.41px;">
+        <div class="col">
+          <img src="assest/img/left3.png" alt="">
+          <h3 style="font-weight: 600;">Mempermudah</h3>
+          <h5>Mempermudah pengguna <br> dalam pembelajaran</h5>
+        </div>
+        <div class="col">
+          <img src="assest/img/center3.png" alt="">
+          <h3 style="font-weight: 600;">Membantu</h3>
+          <h5>Membantu pengguna <br> dalam pembelajaran</h5>
+        </div>
+        <div class="col">
+          <img src="assest/img/right3.png" alt="">
+          <h3 style="font-weight: 600;">Mencerdaskan</h3>
+          <h5>Mencerdaskan pengguna <br> dalam hal pengetahuan</h5>
+        </div>
+      </div>
+    </div>
+    <!-- Page 3 End -->
+
+    <!-- Page 4 Start -->
+    <div class="container" style="margin-top: 172.91px;">
+      <div class="row">
+        <div class="col">
+          <img src="assest/img/person4.png" alt="">
+        </div>
+        <div class="col" style="width: 100%;">
+          <h2 id="judul-page2">Keunggulan S.P.O</h2>
+          <h3 id="co-judul-page2">S.P.O memiliki beberapa <br> keunggulan seperti</h3>
+            <div class="progress" role="progressbar" aria-label="Example 1px high" style="height: 3px; background-color: white; margin-top: 12.88px;">
+              <div class="progress-bar" style="width: 25%; background-color: #FF4B04;">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" style="width: 71.62px;">
+                <div style="background-color: #FAF9F9; width: 71.62px; height: 57.39px; border-radius: 6px; box-shadow: 0px 4px 4px 0px; margin-top: 42px; margin-left: -10px;">
+                  <img src="assest/img/Vector.png" alt="" style="margin-top: 12.84px; margin-left: 20px;" >
+                </div>
+                <div style="background-color: #FAF9F9; width: 71.62px; height: 57.39px; border-radius: 6px; box-shadow: 0px 4px 4px 0px; margin-top: 42px; margin-left: -10px;">
+                  <img src="assest/img/center4.png" alt="" style="margin-top: 9px; margin-left: 14px;" >
+                </div>
+                <div style="background-color: #FAF9F9; width: 71.62px; height: 57.39px; border-radius: 6px; box-shadow: 0px 4px 4px 0px; margin-top: 42px; margin-left: -10px;">
+                  <img src="assest/img/bottom.png" alt="" style="margin-top: 13px; margin-left: 17px;" >
+                </div>
+              </div>
+        <div class="col" style="margin-top: 40px; margin-left: -400px;">
+          <h3 style="font-weight: 600; font-size: 15px;">Lebih Mudah</h3>
+          <h5 style="font-size: 12px; letter-spacing: -3%;">Dengan fitur-fitur yang dikembangkan untuk <br> mempermudah guru maupun siswa dalam belajar</h5>
+          <h3 style="font-weight: 600; font-size: 15px; margin-top: 45px;">Lebih Praktis</h3>
+          <h5 style="font-size: 12px; letter-spacing: -3%;">Didukung di banyak pilihan browser dan bisa di buka <br> di handphone maupun komputer</h5>
+          <h3 style="font-weight: 600; font-size: 15px; margin-top: 45px;">Lebih Mudah</h3>
+          <h5 style="font-size: 12px; letter-spacing: -3%;">Didukung dengan fitur menarik, sehinggga pembelajaran akan <br> lebih interaktif dan tidak membosankan</h5>
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </div>
+    <!-- Page 4 End -->
+
+    <!-- Page 5 Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="assest/img/roket.png" alt="" style="left: 15px; position: relative; top: 105px;">
+        </div>
+        <div class="col">
+          <div style="background-color: #FF4B04; width: 625px; height: 217.98px; margin-top: 189px; border-radius: 20px; margin-left: -380px;">
+            <div style="margin-left: 130px; padding: 30px;">
+              <h2 style="color: white; font-weight: 500;">Let's Start Teaching</h2>
+              <p style="color: white; font-weight: 300; line-height: 24.38px; font-size: 20px;">Mari bersama, menyebar benih kebaikan untuk Indonesia yang lebih baik</p>
+              <button id="button2">Mulai Materi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Page 5 End -->
+
+    <!-- Footer Start -->
+      <div style="width: 100%; height: 359px; background-color: #202126; margin-top: 133px;">
+        <div class="row text-white" style="padding-left: 200px; padding-top: 66px;">
+          <div class="col">
+            <h3>Tentang S.P.O</h3>
+            <p>Sistem Pendidikan Online merupakan suatu wadah untuk <br> mempermudah dan meningkatkan pembelajaran siswa <br> dan guru</p>
+            <input class="form-control" type="text" value="Enter email" style="width: 314px; height: 41px; background-color: #292B31; border: none; color: white; border-radius: 21px;">
+            <button type="button" id="button3">Send</button>
+          </div>
+          <div class="col" style="margin-left: 150px;">
+            <h3 style="font-weight: 500; font-size: 20px; line-height: 24.38px; margin-bottom: 26px;">Kontak kami</h3>
+            <img src="assest/img/phone-solid.png" alt="">
+            <div class="d-inline-flex">
+              <p>088707656026</p>
+            </div>
+            <div>
+            <img src="assest/img/mail.png" alt="">
+            <div class="d-inline-flex">
+              <p>rafliinsankarim19@gmail.com</p>
+            </div>
+            </div>
+          </div>
+          <div class="col" style="margin-left: 100px;">
+            <h3 style="font-weight: 500; font-size: 20px; line-height: 24.38px; margin-bottom: 26px;">Members</h3>
+            <img src="assest/img/avatar.png" alt="" style="margin-top: 15px;">
+            <div class="d-inline-flex flex-column" >
+              <h5 style="font-weight: 500; font-size: 14px; line-height: 17.07px;">Rafli insan</h5>
+              <p style="font-size: 12px; opacity: 90%; margin-top: -5px;">Fullstack</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="progress" role="progressbar" aria-label="Example 1px high" style="height: 3px; background-color: #202126; margin-top: 12.88px;">
+            <div class="progress-bar" style="width: 100%; background-color: #292B31;">
+            </div>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg" style="background-color: #202126;">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+             <ul class="nav me-5 collapse navbar-collapse" style="padding-left: 90px;">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Beranda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Latar Belakang</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Tujuan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Keunggulan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Materi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Tugas</a>
+                  </li>
+                </ul> 
+
+            <a id="m-nav" class="navbar-brand" href="#"><img src="assest/img/logo_footer.png" alt="" style="padding-right: 90px;"></a>
+          </div>
+      </nav>
+
+
+      </div>
+
+      
+
+
+    <!-- Footer End -->
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
-</html>
+</html> 
