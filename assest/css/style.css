@@ -1,0 +1,84 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;   
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+}
+
+/* Page 1 */
+.hulu{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+}
+.p1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+.button1{
+    background-color: #FF4B04;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21.94px;
+        padding-top: 10px;
+        padding-bottom: 11px;
+        padding-left: 25px;
+        padding-right: 26px;
+        border: none;
+}
+.border1{
+    border: none;
+    padding: 1rem 0.1%;
+}
+
+/* page 2 */
+.mt{
+    margin-top: 126px;
+}
+
+/* page 5 */
+.button2{
+    background-color: #FFC13B;
+          border-radius: 5px;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 17.07px;
+          padding-top: 10px;
+          padding-bottom: 11px;
+          padding-left: 25px;
+          padding-right: 26px;
+          border: none;
+}
+
+/* footer */
+.footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.4rem 7%;
+}
+
+.button3{
+    background-color: #FF4B04;
+            color: white;
+            height: 41px;
+            width: 96px;
+            border-radius: 21px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17.07px;
+            padding-top: 12px;
+            padding-left: 29px;
+            padding-right: 29px;
+            border: none;
+            display: inline-flex;
+            margin-left: -70px;
+}
