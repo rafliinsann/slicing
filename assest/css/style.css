@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* navbar */
 .navbar{
     display: flex;
@@ -83,6 +87,29 @@
             display: inline-flex;
             margin-left: -70px;
 }
+.boxes{
+        
+    transform: translateX(400%);
+    transition: 1s ease;
+}
+
+.boxes:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+.boxes.show{
+    transform: translateX(0%);
+}
+
+.box{
+    opacity: 0;
+    transition: opacity 1s ease;
+    
+}
+.box.gow{
+    opacity: 1;
+    
+}
 
 @media only screen and (max-width: 600px){
     .navbar{
@@ -136,6 +163,7 @@
     .guru{
         width: 20px;
     }
+    
     
 
 }
